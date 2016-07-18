@@ -1,0 +1,13 @@
+java/.idea/.name
+java/.idea/compiler.xml
+java/.idea/copyright/profiles_settings.xml
+java/.idea/libraries/Maven__junit_junit_4_12.xml
+java/.idea/libraries/Maven__org_easymock_easymock_3_4.xml
+java/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+java/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml
+java/.idea/misc.xml
+java/.idea/modules.xml
+java/.idea/uiDesigner.xml
+java/.idea/vcs.xml
+java/.idea/workspace.xml
+java/mock-demo.iml

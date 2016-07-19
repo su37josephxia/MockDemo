@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class testStudentApplication {
+public class testAClass {
 
     IB iB;
     AClass aClass;

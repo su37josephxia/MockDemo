@@ -16,7 +16,7 @@ public class testStudentApplication {
         //•使用 EasyMock 生成 Mock 对象；
         iB = EasyMock.createMock(IB.class);
         //设定 Mock 对象的预期行为和输出
-        EasyMock.expect(iB.doMethod()).andReturn("bbb").times(1);
+        EasyMock.expect(iB.doMethod()).andReturn("I am Mock").times(1);
 
 
         //将 Mock 对象切换到 Replay 状态
@@ -28,8 +28,7 @@ public class testStudentApplication {
         String getStr = aClass.doMethod();
 
         //对 Mock 对象的行为进行验证
-        String cstr = "abc";//正确的字符串
-        Assert.assertEquals(getStr, "bbb");
+        Assert.assertEquals(getStr, "I am Mock");
         EasyMock.verify(iB);
 
     }
@@ -40,7 +39,7 @@ public class testStudentApplication {
         //•使用 EasyMock 生成 Mock 对象；
         bClass = EasyMock.createMock(BClass.class);
         //设定 Mock 对象的预期行为和输出
-        EasyMock.expect(bClass.doMethod()).andReturn("bbb").times(1);
+        EasyMock.expect(bClass.doMethod()).andReturn("I am Mock").times(1);
 
 
         //将 Mock 对象切换到 Replay 状态
@@ -52,7 +51,7 @@ public class testStudentApplication {
         String getStr = aClass.doMethod();
 
         //对 Mock 对象的行为进行验证
-        Assert.assertEquals(getStr, "bbb");
+        Assert.assertEquals(getStr, "I am Mock");
         EasyMock.verify(bClass);
 
     }

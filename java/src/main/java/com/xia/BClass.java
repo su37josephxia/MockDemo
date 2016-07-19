@@ -5,6 +5,7 @@ package com.xia;
  */
 public class BClass implements IB {
     public String doMethod() {
+
         return "I am BBBB";
     }
 

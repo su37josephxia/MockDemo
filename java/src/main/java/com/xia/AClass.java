@@ -12,6 +12,7 @@ public class AClass {
     }
 
     public String doMethod() {
+
         return b.doMethod();
     }
 

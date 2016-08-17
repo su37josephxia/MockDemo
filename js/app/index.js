@@ -2,7 +2,6 @@ var Mock4JS = require('mock4js')
 var unit = require('jsunit')
 var AClass = require('./AClass.js')
 var BClass = require('./BClass.js')
-console.log('AAA',BClass)
 
 
 function run() {
@@ -35,6 +34,8 @@ run()
 //function tearDown() {
 //    Mock4JS.verifyAllMocks();
 //}
+
+
 //function testOneSubscriberReceivesAMessage() {
 //
 //    // setup

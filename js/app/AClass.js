@@ -11,7 +11,7 @@ AClass.prototype = {
         bClass = obj
     },
     doMethod: function (msg) {
-        console.log('bClass',bClass)
+        //console.log('bClass',bClass)
 
         var ret = bClass.doMethod('someText')
 

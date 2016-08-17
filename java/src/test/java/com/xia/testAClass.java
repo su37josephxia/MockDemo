@@ -15,9 +15,9 @@ public class testAClass {
     public void testdoMethod01() {
         //•使用 EasyMock 生成 Mock 对象；
         iB = EasyMock.createMock(IB.class);
+
         //设定 Mock 对象的预期行为和输出
         EasyMock.expect(iB.doMethod()).andReturn("I am Mock").times(1);
-
 
         //将 Mock 对象切换到 Replay 状态
         EasyMock.replay(iB);

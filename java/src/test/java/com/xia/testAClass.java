@@ -27,6 +27,8 @@ public class testAClass {
         aClass.setB(iB);
         String getStr = aClass.doMethod();
 
+
+
         //对 Mock 对象的行为进行验证
         Assert.assertEquals(getStr, "I am Mock");
         EasyMock.verify(iB);
